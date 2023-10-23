@@ -16,6 +16,7 @@ API REST que irá gerir contas bancárias virtuais. A API deve suportar fazer um
 
 ## Executar a api
 ```bash
+$ npm install - instalar todas as bibliotecas antes de criar os containers no docker
 $ docker-compose up
 ```
 
