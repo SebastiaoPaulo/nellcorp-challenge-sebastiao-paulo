@@ -30,8 +30,6 @@ services:
       - PG_HOST=db
     depends_on:
       - db
-    volumes:
-      - ./:/usr/src/app
 
   pgadmin:
     image: dpage/pgadmin4
