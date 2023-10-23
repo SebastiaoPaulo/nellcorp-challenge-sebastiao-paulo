@@ -17,7 +17,7 @@ import { ConfigModule } from '@nestjs/config';
       password: process.env.PG_PASSWORD,
       database: process.env.PG_DB,
       entities: [Account, Transaction],
-      synchronize: true,
+      synchronize: false,
     }),
     AccountModule,
     TransactionModule,

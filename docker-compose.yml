@@ -17,7 +17,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: npm run start:dev
+    command: npm run start:prod
     container_name: nellcorp-challenge-sebastiao-paulo
     ports:
       - '3000:3000'
