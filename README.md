@@ -19,6 +19,9 @@ API REST que irá gerir contas bancárias virtuais. A API deve suportar fazer um
 $ docker-compose up
 ```
 
+## Acesso a documentação
+localhost:3000/docs - Acesso a documentação da App
+
 # Regras de negócio
 ### Criação de Conta:
 
