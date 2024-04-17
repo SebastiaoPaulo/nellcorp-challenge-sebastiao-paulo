@@ -1,7 +1,7 @@
 import { DocumentBuilder } from '@nestjs/swagger';
 
 export const swaggerOptions = new DocumentBuilder()
-  .setTitle('NELLCORP CHALLENGE')
-  .setDescription('The API for the NellCorp Challenge')
+  .setTitle('LAB-APP-API')
+  .setDescription('The API for the LAB APP')
   .setVersion('1.0')
   .build();
